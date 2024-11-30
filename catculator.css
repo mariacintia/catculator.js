@@ -1,0 +1,120 @@
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mascot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 120px;
+    height: auto;
+}
+.paw {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+    height: auto;
+}
+
+.input-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.intro-text h2 {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #ff66b2; 
+    line-height: 1.6;
+}
+.intro-text p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333; 
+    line-height: 1.6;
+}
+.intro-text strong {
+    color: #ff66b2;
+}
+#calculationType {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+#functionInput {
+    width: 60%;
+    padding: 15px;
+    border: 2px solid #ff66b2;
+    border-radius: 25px;
+    font-size: 1.2em;
+    text-align: center;
+}
+button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff99cc;
+}
+#result {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Jua', sans-serif;
+    margin-top: auto;
+}
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+

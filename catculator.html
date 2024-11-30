@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catculator - Equação e Derivadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jua&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.1.1/math.min.js"></script>
+    <link rel="stylesheet" href="catculator.css">
+</head>
+<body>
+    <header>
+        <h1 class="jua-regular">Catculator</h1>
+        <div class="logo"></div>
+        <img class="mascot" src="logo_cat.png" alt="Mascote">
+        <img class="paw" src="paw.png" alt="paw">
+    </header>
+    
+    <div class="intro-text">
+        <h2>Bem-vindo a Catculator!</h2>
+        <p>Esta ferramenta permite que você calcule derivadas e resolva equações de forma fácil e rápida. Selecione o tipo de cálculo, digite sua expressão e clique em "Calcular".</p>
+<p>  Para realizar operações de potenciação, utilize o símbolo <strong>^</strong> em vez de usar o número ². 
+    Por exemplo, para calcular x ao quadrado, digite <strong>x^2</strong>.</p></p>
+    </div>
+
+    <div class="input-bar">
+        <select id="calculationType">
+            <option value="derivative">Derivada</option>
+            <option value="equation">Equação</option>
+        </select>
+        <input type="text" id="functionInput" placeholder="Digite sua expressão...">
+        <button onclick="calculate()">Calcular</button>
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        <p class="jua-regular">&copy; 2024 Catculator. Made with ♡ by M. Cintia e Brandon L.</p>
+    </footer>
+
+    <script src="catculator.js"></script>
+</body>
+</html>
